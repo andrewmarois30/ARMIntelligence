@@ -17,8 +17,8 @@ KillMode=mixed
 TimeoutStopSec=1800
 
 Environment=ARM_INTELLIGENCE_ROOT=%h/ARMIntelligence
-Environment=ARM_LAB_WAKE_SECONDS=900
-Environment=ARM_LAB_SETTLE_SECONDS=120
+Environment=ARM_LAB_WAKE_SECONDS=30
+Environment=ARM_LAB_SETTLE_SECONDS=30
 Environment=ARM_LAB_STOP_GRACE_SECONDS=1200
 Environment=ARM_LAB_IDLE_EXIT_CODE=75
 EnvironmentFile=-%h/.config/arm-intelligence/pi-wake.env
